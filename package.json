@@ -12,7 +12,9 @@
     "dev": "concurrently --kill-others-on-fail \"yarn dev-server\" \"yarn dev-front\"",
     "prod-server": "node app.js",
     "prod-front": "cd front && yarn build ",
-    "prod":" concurrently --kill-others-on-fail \"yarn prod-server\" \" yarn prod-front\""
+    "prod":" concurrently --kill-others-on-fail \"yarn prod-server\" \" yarn prod-front\"",
+    "start": "node app.js",
+    "heroku-postbuild": "cd front && yarn run build"
   },  
   "devDependencies": {
     "concurrently": "^3.5.1",
