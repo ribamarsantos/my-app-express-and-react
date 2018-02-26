@@ -1,0 +1,24 @@
+{
+  "name": "my-app-express-and-react",
+  "version": "0.0.1",
+  "description": "creating front with react and backend with node and express",
+  "main": "index.js",
+  "repository": "https://www.github.com/ribamarsantos/my-app-express-and-react",
+  "author": "Ribamar",
+  "license": "MIT",
+  "scripts": {
+    "dev-front": "cd front && yarn start",
+    "dev-server": "nodemon app.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn dev-server\" \"yarn dev-front\"",
+    "prod-server": "node app.js",
+    "prod-front": "cd front && yarn build ",
+    "prod":" concurrently --kill-others-on-fail \"yarn prod-server\" \" yarn prod-front\""
+  },  
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.15.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
