@@ -1,19 +1,30 @@
 {
   "name": "my-app-express-and-react",
   "version": "0.0.1",
-  "description": "creating front with react and backend with node and express",
+  "description": "creating front/back end application with React.JS and Express. Deployment to Heroku",
   "main": "index.js",
   "repository": "https://www.github.com/ribamarsantos/my-app-express-and-react",
-  "author": "Ribamar",
+  "author": "Ribamar Santos <ribamaar@gmail.com> (http://ribamarsantos.github.io/)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ribamarsantos/my-app-express-and-react/issues"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "react",
+    "redux",
+    "redux-thunk"
+  ],  
   "scripts": {
-    "dev-front": "cd front && yarn start",
+    "start": "node app.js",
+    "dev-front": "cd front && npm install && yarn start",
     "dev-server": "nodemon app.js",
     "dev": "concurrently --kill-others-on-fail \"yarn dev-server\" \"yarn dev-front\"",
     "prod-server": "node app.js",
     "prod-front": "cd front && yarn build ",
     "prod":" concurrently --kill-others-on-fail \"yarn prod-server\" \" yarn prod-front\"",
-    "start": "node app.js",
     "heroku-postbuild": "cd front  && npm install && yarn run build"
   },  
   "devDependencies": {
