@@ -1,25 +1,26 @@
-###:tw-23-20e3:React + Express + Heroku = myAwesome Project
+###:hash:React + Express + Heroku = myAwesome Project
 
-## :tw-23-20e3 :What you will need:
-:tw-1f449: Heroku account
-:tw-1f449: Heroku cli
-:tw-1f449: Node
-:tw-1f449: npm/yarn
+## :hash:What you will need:
+:point_right: Heroku account
+:point_right: Heroku cli
+:point_right: Node
+:point_right: npm/yarn
 
-##:tw-23-20e3: Steps 
-:tw-1f449: `$ git clone https://github.com/ribamarsantos/my-app-express-and-react.git`
-:tw-1f449: `$ yarn install`
+##:hash: Steps 
+:point_right: `$ git clone https://github.com/ribamarsantos/my-app-express-and-react.git`
+:point_right: `$ yarn install`
 Choose one option:
 Development:
-:tw-1f449: `$ yarn run dev `
+:point_right: `$ yarn run dev `
 Build:
-:tw-1f449: `$ yarn run prod `
+:point_right: `$ yarn run prod `
 Heroku:
-:tw-1f449: `$ heroku create `
-:tw-1f449: `$ git push heroku master `  :tw-1f60d:
-:tw-1f449: `$ heroku open `
+:point_right: `$ heroku create `
+:point_right: `$ git push heroku master `  :heart_eyes:
+:point_right: `$ heroku open `
 
 ###Links
+[Example Running](http://bit.ly/2CKxREk)
 [NodeJS](https://nodejs.org/en/download/)
 [Yarn](https://yarnpkg.com/en/docs/install)
 [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
