@@ -1,4 +1,4 @@
-###:hash:React + Express + Heroku = myAwesome Project
+### :hash: React + Express + Heroku = myAwesome Project
 
 ## :hash:What you will need:
 - :point_right: Heroku account
@@ -6,7 +6,7 @@
 - :point_right: Node
 - :point_right: npm/yarn
 
-##:hash: Steps 
+## :hash: Steps 
 - :point_right: `$ git clone https://github.com/ribamarsantos/my-app-express-and-react.git`
 - :point_right: `$ yarn install`
 ### Choose one option:
@@ -19,7 +19,7 @@
 - :point_right: `$ git push heroku master `  :heart_eyes:
 - :point_right: `$ heroku open `
 
-###Links
+### Links
 - [Example Running](http://bit.ly/2CKxREk)
 - [NodeJS](https://nodejs.org/en/download/)
 - [Yarn](https://yarnpkg.com/en/docs/install)
